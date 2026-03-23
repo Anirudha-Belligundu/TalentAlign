@@ -11,8 +11,8 @@ FastAPI backend for resume analysis and scoring. Uses **Google Gemini** (free ti
 
 ## Setup
 
-### 1. Get a free Gemini API key
-Go to https://aistudio.google.com/app/apikey and create a key. It's free.
+### 1. Get your OpenAI API key
+Go to https://platform.openai.com/api-keys and create a key
 
 ### 2. Clone and set up environment
 ```bash
