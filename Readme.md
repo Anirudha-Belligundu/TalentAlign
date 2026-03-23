@@ -27,8 +27,8 @@ pip install -r requirements.txt
 
 ### 3. Create your .env file
 ```bash
-cp .env.example .env
-# Edit .env and paste your Gemini API key
+# Edit .env and paste your OpenAI API key
+OPENAI_API_KEY=your_key_here
 ```
 
 ### 4. Run the server
