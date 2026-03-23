@@ -27,6 +27,7 @@ pip install -r requirements.txt
 
 ### 3. Create your .env file
 ```bash
+ 0b1b34f (Updated README to OpenAI API)
 # Edit .env and paste your OpenAI API key
 OPENAI_API_KEY=your_key_here
 ```
