@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #0a0a0f;
+  color: white;
+}
+
+.pricing-container {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.pricing-container h1 {
+  font-size: 40px;
+}
+
+.pricing-container p {
+  color: #aaa;
+}
+
+/* GRID */
+.pricing-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+/* CARD */
+.plan-card {
+  background: rgba(255,255,255,0.05);
+  padding: 30px;
+  border-radius: 20px;
+  width: 260px;
+  transition: 0.3s;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.plan-card:hover {
+  transform: translateY(-10px);
+}
+
+/* HIGHLIGHT */
+.highlight {
+  border: 2px solid #8b5cf6;
+  transform: scale(1.05);
+}
+
+/* TEXT */
+.plan-card h3 {
+  margin: 10px 0;
+}
+
+/* FEATURES */
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.plan-card li {
+  margin: 10px 0;
+}
+
+/* BUTTON */
+.plan-card button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background: #8b5cf6;
+  color: white;
+  cursor: pointer;
+}
+
+/* SKIP */
+.skip-btn {
+  margin-top: 40px;
+  background: transparent;
+  border: 1px solid #555;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
